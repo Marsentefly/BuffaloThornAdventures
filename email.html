@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buffalo thorn adventures email</title>
+    <link rel="stylesheet" type="text/css" href="email.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1>Buffalo Thorn Adventures Contact</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#accommodation">Accommodation</a></li>
+          <li><a href="index.html#activities">Activities</a></li>
+          <li><a href="index.html#Gallery">Gallery</a></li>
+          <!-- <li><a href="#">Contact Us</a></li> -->
+        </ul>
+      </nav>
+    </header>
+    <!-- <h1 class="con">Contact</h1> -->
+    <p class="address">
+      <strong>Address:</strong>
+      <br />The Reproach Farm <br />van Reenen kzn
+    </p>
+
+    <p class="phone">
+      <strong>Phone:</strong>
+      <br />078 019 7229 / 076 615 9296
+    </p>
+
+    <p class="social">
+      <strong>Social:</strong>
+      <a href="https://www.facebook.com/groups/685268832465737/" class="facebook" target="_blank">
+        <ion-icon name="logo-facebook"></ion-icon>
+      </a>
+    </p>
+
+    <h2>Location:</h2>
+    <p class="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3509.1216490116535!2d29.403016215077717!3d-28.41558598250385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDI0JzU2LjEiUyAyOcKwMjQnMTguNyJF!5e0!3m2!1sen!2sza!4v1683395377165!5m2!1sen!2sza"
+        width="400
+        height="300"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </p>
+    
+    <form action="mailto:buffalothornadventures@gmail.com" method="POST" enctype="text/plain">
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="name" placeholder="Your name" required />
+    
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" placeholder="Your email" required />
+    
+      <label for="message">Message:</label>
+      <textarea name="message" id="message" rows="5" placeholder="Your message" required></textarea>
+    
+      <button type="submit">Send</button>
+
+    </form>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
+    
